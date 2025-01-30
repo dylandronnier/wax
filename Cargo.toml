@@ -1,0 +1,12 @@
+[package]
+name = "wax"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+candle-core = { version = "0.8.2", features = ["mkl"] }
+candle-datasets = "0.8.2"
+candle-nn = { version = "0.8.2", features = ["mkl"] }
+clap = { version = "4.5.27", features = ["derive", "string"] }
+indicatif = "0.17.11"
+rand = "0.9.0"
